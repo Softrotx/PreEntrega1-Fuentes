@@ -55,7 +55,7 @@ function sumaCostoProductos (user, pass){
 function descuento (monto, descuento ){
     montoDescuento = monto / 100 * descuento
     montoFinal = monto - montoDescuento
-    alert("Se aplicó un " + descuento + "%" + " de descuento")
+    alert("¡Se aplicó un " + descuento + "%" + " de descuento!")
     return montoFinal
 }
 
